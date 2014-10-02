@@ -9,7 +9,7 @@ Check the [releases](https://github.com/droboports/par2cmdline/releases) page. I
 
 ## How to compile
 
-First make sure that you have a working cross-compiling VM. See http://www.droboports.com/setting-up-a-vm for a step-by-step description.
+First make sure that you have a [working cross-compiling VM](https://github.com/droboports/droboports/wiki/Setting-up-a-VM).
 
 Log in the VM, pick a temporary folder (e.g., `~/build`), and then do:
 
@@ -17,6 +17,7 @@ Log in the VM, pick a temporary folder (e.g., `~/build`), and then do:
 git clone https://github.com/droboports/par2cmdline.git
 cd par2cmdline
 ./build.sh
+ls -la *.tgz
 ```
 
 Each invocation creates a log file with all the generated output.
