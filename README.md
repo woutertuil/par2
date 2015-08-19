@@ -28,7 +28,7 @@ Each invocation creates a log file with all the generated output.
 
 ## Sources
 
-* par2cmdline: http://sourceforge.net/projects/parchive/files/par2cmdline/
+* par2cmdline: https://github.com/Parchive/par2cmdline
 
 <sub>**Disclaimer**</sub>
 
