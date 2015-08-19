@@ -11,7 +11,7 @@ pushd "target/${FOLDER}"
 aclocal
 automake --add-missing
 autoconf
-./configure --host="${HOST}" --prefix="${DEST}"
+./configure --host="${HOST}" --prefix="${DEST}" --mandir="${DEST}/man"
 make
 make install
 popd
