@@ -6,7 +6,7 @@
 . /etc/service.subr
 
 framework_version="2.1"
-name="par2cmdline"
+name="par2"
 version="0.6.14"
 description="File verification and repair tool"
 depends=""
