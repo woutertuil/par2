@@ -8,7 +8,7 @@ local URL="https://github.com/Parchive/par2cmdline/archive/${FILE}"
 git clone https://github.com/jkansanen/par2cmdline-mt.git
 cd par2cmdline-mt
 #patch "target/${FOLDER}/reedsolomon.cpp" src/reedsolomon.cpp.patch
-pushd "target/${FOLDER}"
+
 aclocal
 automake --add-missing
 autoconf
