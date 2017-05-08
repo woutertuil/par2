@@ -1,11 +1,12 @@
 ### PAR2CMDLINE ###
 _build_par2cmdline() {
-local VERSION="0.6.14"
+local VERSION="mt"
 local FOLDER="par2cmdline-${VERSION}"
 local FILE="v${VERSION}.tar.gz"
 local URL="https://github.com/Parchive/par2cmdline/archive/${FILE}"
 
-_download_tgz "${FILE}" "${URL}" "${FOLDER}"
+git clone https://github.com/jkansanen/par2cmdline-mt.git
+cd par2cmdline-mt
 #patch "target/${FOLDER}/reedsolomon.cpp" src/reedsolomon.cpp.patch
 pushd "target/${FOLDER}"
 aclocal
